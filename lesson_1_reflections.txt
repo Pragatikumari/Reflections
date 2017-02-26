@@ -1,0 +1,27 @@
+1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+>>it will tell me about the errorneous line in a go, and i can directly go there nd fix the same,(FC)
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+>> it will be easy to look for errors and back tracking would be easier if ever needed
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+>>
+manual saving implies some change have been made. auto version control may contain useless versions..means may be there were no imp changes made b/w that time period.. 
+so manual version control is good. and yes, auto version control like google doc may increase the no. of commits and it may lead to failure of the actual purpose behind version control.(git diff)
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+>>
+
+as many a times many files are connected together they are linked together to give a result.. so its imp to save them all together and on checking the log we can say that at what point of time what was altered in which file. example webapps all index.html home etc should be considered as one repo.
+
+How can you use the commands git log and git diff to view the history of files?
+>>
+git log 
+  this commands display the list of all commits made so far with the      unique commit id, time and message
+git diff old_commit_id new_commit_id 
+  guve us all the changes made between these to commits and we can find    the number of lines added and deleted between these to commits
+
+How might using version control make you more confident to make changes that could break something?
+>> git checkout commit_id take us to the previous version of commit. so that now we can exactly find the commit at which the changes occoured
