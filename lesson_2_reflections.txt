@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ >>when we intialise a repo using "git init" command git starts keeping track of git commits and changes made.
