@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
  >>when we intialise a repo using "git init" command git starts keeping track of git commits and changes made.
+
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+>>staging area is an area between the working directory and repository .when a file/files  is/are added to staging area using "git add" command now any commit on that working area will be operated on the files in staging area and the files of staging area will be moved to repository.
+>>if any file is added by mistake to staging area.. it can be remved using "git reset " command.
