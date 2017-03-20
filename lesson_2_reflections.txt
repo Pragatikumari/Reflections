@@ -14,3 +14,6 @@ What happens when you initialize a repository? Why do you need to do it?
 4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 >> when we have to create to versions of same file, or we want to see wat dat changes will do but not want to sav t. or example if we want a web in diff langs
+
+5.How do the diagrams help you visualize the branch structure?
+ >> it helps me in tracking the commits which are reachable. starting from the recent one we can visit to the state which does not have any parent starting from any branch. if any commit is made while checkingout an old commit which is not a branch it will be lost the moment any other branch is checkedout
