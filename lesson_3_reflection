@@ -12,7 +12,10 @@ Describe the differences between forks, clones, and branches. When would you use
    Branches:- it levels the commit by a name and create a different copy               of it which can be modified separetely.
 
 What is the benefit of having a copy of the last known state of the remote stored locally(origin/master)?
- >> it helps in collaboration and resolving the conflicts when the same    part of code is changed in both local as well as remte repo. then by    using git fetch    origin/master and git status followed by git merge    master origin/master
+ >> it helps in collaboration and resolving the conflicts when the same    part of code is changed in both local as well as remte repo. then by    using git fetch       origin/master and git status followed by git merge    master origin/master
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
->> I have to it manualy  , in that case we have look fr each and every line manualy and then commit it, where as git and git hub do thid for us and find the    conflicting line to be considered and fixed.
+>> I have to it manualy  , in that case we have look fr each and every line manualy and then commit it, where as git and git hub do thid for us and find the      conflicting line to be considered and fixed.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+>> when  i have to confirm that changes made are valid and proper from the other contributors we can't do it directly to the master branch. in that case we have to    make a seprate branch and send pull-request to the other contributor.
